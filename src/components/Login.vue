@@ -4,7 +4,7 @@
       <input v-model="form.username" type="text" placeholder="Username" />
     </div>
     <div class="form-group">
-      <input v-model="form.password" type="password" placeholder="Password" />
+      <input @keypress.enter="login" v-model="form.password" type="password" placeholder="Password" />
     </div>
     <div class="form-group">
       <input v-model="form.remember_me" type="checkbox" />
