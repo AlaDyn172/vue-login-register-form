@@ -113,3 +113,19 @@ input[type="checkbox"] {
   justify-content: center;
   margin-top: 10px;
 }
+
+.user {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user > div {
+  color: white;
+}
+
+.user > div:nth-child(1) {
+  font-size: 18px;
+}

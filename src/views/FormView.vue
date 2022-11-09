@@ -26,11 +26,11 @@ export default {
       else this.login = false;
     },
     __login(form) {
-      // TO-DO: Backend functionality.
+      this.$store.dispatch("get_user", form);
     },
     __register(form) {
-      // TO-DO: Backend functionality.
-    }
+      this.$store.dispatch("create_user", form);
+    },
   },
   components: {
     FormNavbar,
