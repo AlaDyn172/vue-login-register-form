@@ -1,24 +1,21 @@
 # vue-login-register-form
 
-## Project setup
+## Install project dependencies
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Start the project in development mode
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Compiles and build files for production mode
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### Start the backend
 ```
-yarn lint
+yarn backend
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
